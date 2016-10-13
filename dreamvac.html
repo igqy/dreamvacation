@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Dream Vacation</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree+Serif">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="home" class="font" style="background-color:#6A5DB8;padding:15px;color:#b5b1d0;">
+      <h1 style="color:#b5b1d0;">
+        My Dream Vacation
+      </h1>
+    </div>
+    <hr>
+    <ul id="navbar">
+      <li class="navitem"><a href="#home">Home</a></li>
+      <li class="navitem"><a href="#jironav">Sukiyabashi Jiro</a></li>
+      <li class="navitem"><a href="#timesnav">Times Square</a></li>
+    </ul>
+
+    <center>
+
+    <!--Sukiyabashi Jiro Section-->
+    <h2 class="font" id="jironav" style="color:#b5b1d0;">
+      Sukiyabashi Jiro
+    </h2>
+
+    <p class="font" style="color:#b5b1d0;">
+      Sukiyabashi Jiro is a sushi restaurant owned by Master Sushi Chef, Jiro Ono. This restaurant was recently awarded three stars from the Michelin<br>
+      Guide, which is a well-known tourist guide. This restaurant offers a different type of sushi dining, called Omakase. Omakase is a style of sushi<br>
+      dining where the chef decides what you'll eat for the visit. He also gets to decide when you stop eating, unless if you are full.<br>
+      <br>
+      This restaurant was also featured in a documentary, "Jiro: Dreams of Sushi", which is where I first heard of it. The documentary features Jiro<br>
+      Ono's backstory and the many sushi dishes that can be served there. Frankly, the movie made me crave for sushi and fueled my desire to visit the place.
+    </p>
+
+    <h3 class="font" style="color:#b5b1d0;">
+      Photograph (Exterior)
+    </h3>
+
+    <img src="images/sjpicoutside.jpg" alt="Sukiyabashi Jiro Exterior" style="width:620px;height:400px;">
+
+    <p class="font footnote color">*Source: <a class="alink" target="_blank" href="http://theskinnybib.com/wp-content/uploads/2012/11/IMG_2655.jpg">http://theskinnybib.com/wp-content/uploads/2012/11/IMG_2655.jpg</a>
+
+    <h3 class="font" style="color:#b5b1d0;">
+      Photograph (Interior)
+    </h3>
+
+    <img src="images/sjpicinside.jpg" alt="Sukiyabashi Jiro Interior" style="width:620px;height:400px;">
+
+    <p class="font footnote color">*Source: <a class="alink" target="_blank" href="http://www.theworlds50best.com/asia/en/filestore/jpg/Sukiyabashi-Jiro-interior1.jpg">http://www.theworlds50best.com/asia/en/filestore/jpg/Sukiyabashi-Jiro-interior1.jpg</a>
+
+    <h3 class="font" style="color:#b5b1d0;">
+      Road Map View
+    </h3>
+
+    <div id="jiro" style="width:500px;height:500px;"></div>
+
+    <h3 class="font" style="color:#b5b1d0;">
+      Satellite Map View
+    </h3>
+
+    <div id="jiroSat" style="width:500px;height:500px"></div>
+
+    <p class="font" style="color:#b5b1d0;">
+      *As you can see, the restaurant is blocked by a building. This is because of the fact that the<br>
+      restaurant is underground*
+    </p>
+
+    <hr>
+
+    <!--Times Square Section-->
+    <h2 class="font" id="timesnav" style="color:#b5b1d0;">
+      Times Square
+    </h2>
+
+    <p class="font" style="color:#b5b1d0;">
+      Times Square in New York is a famous intersection mainly used for commercial billboards and advertisements. This intersection earned a name for<br>
+      itself because of its bright and radiant colors from the advertisements.<br>
+      <br>
+      This attraction was formerly named "Longacre Square", then changed to "Times Square", once The New York Times moved their headquarters in the Times<br>
+      building in the Square.<br>
+      <br>
+      Every new year, the Square has an event called the Ball Drop. This is when a new year arrives, on top of the Times Building, a giant ball slowly<br>
+      descends down a pole to designate the start of a new year, once the ball reaches the bottom.
+    </p>
+
+    <h3 class="font" style="color:#b5b1d0;">
+      Photograph
+    </h3>
+
+    <img src="images/tspic.jpg" alt="Times Square Picture" style="width:620px;height:400px;">
+
+    <p class="font footnote color">*Source: <a class="alink" target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/c/c0/1_times_square_night_2013.jpg">https://upload.wikimedia.org/wikipedia/commons/c/c0/1_times_square_night_2013.jpg</a>
+
+    <h3 class="font" style="color:#b5b1d0;">
+      Road Map View
+    </h3>
+
+    <div id="times" style="width:500px;height:500px;"></div>
+
+    <h3 class="font" style="color:#b5b1d0;">
+      Satellite Map View
+    </h3>
+
+    <div id="timessat" style="width:500px;height:500px;"></div>
+
+  </center>
+
+    <script src="googlemaps.js"></script>
+
+    <script src="jquery.backtotoplink.min.js"></script>
+
+    <script>
+      $.backToTopLink({});
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4GsB_2SimZJN0sJZDjHPwnv6dLAeYxP0&callback=myMap"
+    async defer></script>
+  </body>
+</html>
